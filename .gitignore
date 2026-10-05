@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Hugging Face cache (model weights download on first run)
+.cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
